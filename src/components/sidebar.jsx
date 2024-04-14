@@ -26,7 +26,7 @@ const Sidebar = () => {
               {item.linkss.map((itemss)=>(
                 
               
-               <Link to={`./^${itemss.name}`} className='flex items-center gap-2 text-xl ml-4 mt-2 text-gray-300 hover:text-white'>
+               <Link to={`/${itemss.name}`} className='flex items-center gap-2 text-xl ml-4 mt-2 text-gray-300 hover:text-white'>
                 {itemss.icons}
                {itemss.name}
                
@@ -44,7 +44,7 @@ const Sidebar = () => {
               {item.linkss.map((itemss)=>(
                 
               
-                <Link to={`./^${itemss.name}  `}className='flex items-center gap-2 text-xl mt-2 text-gray-300 hover:text-white'>
+                <Link to={`/${itemss.name}  `}className='flex items-center gap-2 text-xl mt-2 text-gray-300 hover:text-white'>
                  {itemss.icons}
                 
                 
